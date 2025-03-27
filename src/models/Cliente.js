@@ -21,6 +21,7 @@ const clienteSchema = new mongoose.Schema({
   fotoPerfil: {
     type: String
   },
+  
   isAdmin: {
     type: Boolean,
     default: false
